@@ -1,4 +1,4 @@
-# GUI Automation Bot
+# Inazuma Afk Bot
 
 **Python Version:** 3.9.13
 
