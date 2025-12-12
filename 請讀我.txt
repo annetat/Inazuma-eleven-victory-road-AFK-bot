@@ -1,0 +1,52 @@
+# GUI 自動化機器人
+
+**Python 版本:** 3.9.13
+
+這個程式是一個簡單的自動刷素材Bot，使用 PyAutoGUI 模擬滑鼠和鍵盤操作，按照預先設定的步驟執行遊戲中的任務。
+
+---
+
+## ⚠ 重要注意事項
+
+1. **Templates 資料夾**  
+   - 如果你想自己執行程式，需要修改 `templates` 資料夾內的圖片。  
+   - 通常只需要更新 `Picture1.png` 和 `Picture2.png`。
+
+2. **遊戲解析度**  
+   - 建議將遊戲解析度設定為 **1600x900**，不然截圖要全部自行更改才能使用。
+
+3. **資料夾路徑**  
+   - 放置此程式的資料夾路徑 **不能包含中文字符**，否則機器人可能無法運行。
+
+
+---
+
+## 📝 機器人步驟
+
+| 步驟 | 操作 | 目標 |
+|------|------|------|
+| 1    | 點擊 | Picture1.png |
+| 2    | 點擊 | Picture2.png |
+| 3    | 點擊 | Picture3.png |
+| 4    | 點擊 | Picture4.png |
+| 5    | 點擊 | Picture5.png |
+| 6    | 點擊 | Picture6.png |
+| 7    | 點擊 | Picture7.png |
+| 8    | 點擊 | Picture7.png |
+| 9    | 點擊 | Picture8.png |
+| 10   | 按鍵 | U（開啟指揮官） |
+| 11   | 點擊 | Picture6.png |
+| 12   | 點擊 | Picture7.png |
+| 13   | 點擊 | Picture7.png（回到步驟 1 循環） |
+
+---
+
+## 📦 安裝與執行
+
+1. 修改 `templates` 資料夾內的圖片（ `Picture1.png` 到 `Picture8.png`）。  
+2. 確保遊戲解析度設定為 **1600x900**，否則需要重新截圖。  
+3. 確認資料夾路徑不包含中文字符。  
+4. 安裝所有依賴套件：
+
+```powershell
+python -m pip install -r requirment.txt

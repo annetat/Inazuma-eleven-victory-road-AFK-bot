@@ -18,10 +18,6 @@ This program is a simple GUI automation bot that uses PyAutoGUI to simulate mous
 3. **Folder Path**  
    - The folder path where you place this program **cannot contain Chinese characters**, otherwise the bot may not work.
 
-4. **How to Run**  
-   - After modifying the images, open `Start_bot.bat` (run as Administrator).  
-   - The file is safe to run; no viruses are included.
-
 ---
 
 ## 📝 Bot Steps
@@ -46,7 +42,7 @@ This program is a simple GUI automation bot that uses PyAutoGUI to simulate mous
 
 ## 📦 Setup / How to Run
 
-1. Modify the images in the `templates` folder (at least `Picture1.png` and `Picture2.png`).  
+1. Modify the images in the `templates` folder .  
 2. Make sure the game resolution is set to **1600x900**; otherwise, you may need to retake all the screenshots.  
 3. Ensure the folder path does not contain Chinese characters.  
 4. Install all required dependencies:
