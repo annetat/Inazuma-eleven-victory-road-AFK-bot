@@ -44,23 +44,12 @@ This program is a simple GUI automation bot that uses PyAutoGUI to simulate mous
 
 ---
 
-## 📦 How to Run
+## 📦 Setup / How to Run
 
 1. Modify the images in the `templates` folder (at least `Picture1.png` and `Picture2.png`).  
-2. Make sure the game resolution is set to 1600x900 otherwise you will need to retake all the screenshot.  
+2. Make sure the game resolution is set to **1600x900**; otherwise, you may need to retake all the screenshots.  
 3. Ensure the folder path does not contain Chinese characters.  
-5. The bot will automatically execute the steps in a loop.
+4. Install all required dependencies:
 
----
-
-## 🔧 Dependencies
-
-Using Python 3.9.13, install the following packages:
-
-```text
-PyAutoGUI==0.9.54
-pillow==11.3.0
-PyGetWindow==0.0.9
-PyMsgBox==2.0.1
-MouseInfo==0.1.3
-opencv-python==4.12.0.88
+```powershell
+python -m pip install -r requirment.txt
