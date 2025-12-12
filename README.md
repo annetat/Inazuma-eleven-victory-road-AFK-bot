@@ -53,3 +53,7 @@ This program is a simple GUI automation bot that uses PyAutoGUI to simulate mous
 
 ```powershell
 python -m pip install -r requirment.txt
+
+5. Run the bot:
+
+python .\InazumaBot.py
