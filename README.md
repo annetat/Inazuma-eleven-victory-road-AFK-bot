@@ -48,6 +48,8 @@ This program is a simple GUI automation bot that uses PyAutoGUI to simulate mous
 4. Install all required dependencies:
 
 ```powershell
+python -m venv venv
+.\venv\Scripts\activate
 python -m pip install -r requirment.txt
 
 5. Run the bot:

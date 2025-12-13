@@ -28,7 +28,7 @@ steps = [
     {"type": "key",   "target": "u",          "timeout": 30,  "on_fail": -1},
     {"type": "click", "target": "Picture6.png", "timeout": 300, "on_fail": 8},
     {"type": "click", "target": "Picture7.png", "timeout": 300, "on_fail": -1, "wait_after_move": 3},
-    {"type": "click", "target": "Picture7.png", "timeout": 30, "on_fail": -1, "wait_after_move": 3}
+    {"type": "click", "target": "Picture7.png", "timeout": 30, "on_fail": -1, "wait_after_move": 3} 
 ]
 
 # -----------------------------

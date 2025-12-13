@@ -47,6 +47,8 @@
 2. 確保遊戲解析度設定為 **1600x900**，否則需要重新截圖。  
 3. 確認資料夾路徑不包含中文字符。  
 4. 安裝所有依賴套件：
-
-```powershell
+5. 跑的指令
+python -m venv venv
+.\venv\Scripts\activate
 python -m pip install -r requirment.txt
+python .\InazumaBot.py
