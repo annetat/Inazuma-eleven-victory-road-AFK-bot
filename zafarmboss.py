@@ -6,7 +6,7 @@ import sys
 # -----------------------------
 # Folder path (relative, pure Python version)
 # -----------------------------
-folder = os.path.join(os.path.dirname(__file__), "templates")
+folder = os.path.join(os.path.dirname(__file__), "templatesZa")
 
 if not os.path.exists(folder):
     print(f"Templates folder not found. Please make sure {folder} exists.")
@@ -16,14 +16,18 @@ if not os.path.exists(folder):
 # Step settings
 # -----------------------------
 steps = [
-    {"type": "click", "target": "Picture1.png", "timeout": 10,  "on_fail": 12},
+    {"type": "click", "target": "Picture1.png", "timeout": 10,  "on_fail": 16},
     {"type": "click", "target": "Picture2.png", "timeout": 30,  "on_fail": -1},
     {"type": "click", "target": "Picture3.png", "timeout": 30,  "on_fail": -1},
     {"type": "click", "target": "Picture4.png", "timeout": 30,  "on_fail": -1},
     {"type": "click", "target": "Picture5.png", "timeout": 30,  "on_fail": -1},
     {"type": "click", "target": "Picture6.png", "timeout": 30,  "on_fail": -1},
     {"type": "click", "target": "Picture7.png", "timeout": 30,  "on_fail": -1},
+    {"type": "click", "target": "za1.png", "timeout": 30,  "on_fail": -1},
+    {"type": "click", "target": "za2.png", "timeout": 30,  "on_fail": -1},
     {"type": "click", "target": "Picture7.png", "timeout": 30,  "on_fail": -1},
+    {"type": "click", "target": "za1.png", "timeout": 30,  "on_fail": -1},
+    {"type": "click", "target": "za2.png", "timeout": 30,  "on_fail": -1},
     {"type": "click", "target": "Picture8.png", "timeout": 10,  "on_fail": -1},
     {"type": "key",   "target": "u",          "timeout": 30,  "on_fail": -1},
     {"type": "click", "target": "Picture6.png", "timeout": 300, "on_fail": 8},
