@@ -16,7 +16,8 @@ if not os.path.exists(folder):
 # Step settings
 # -----------------------------
 steps = [
-    {"type": "click",    "target": "rk1.png", "timeout": 10, "on_fail": 12, "delay": 2},
+    {"type": "click",    "target": "rk1.png", "timeout": 10, "on_fail": 13, "delay": 2},
+    {"type": "wait_click","on_fail": 9, "delay": 2, },
     {"type": "click",    "target": "rk2.png", "delay": 2},
     {"type": "click",    "target": "rk3.png", "delay": 2},
     {"type": "click",    "target": "rk4.png", "on_fail": 9, "delay": 2},

@@ -23,12 +23,12 @@ steps = [
     {"type": "click", "target": "Picture5.png", "timeout": 30,  "on_fail": -1},
     {"type": "click", "target": "Picture6.png", "timeout": 30,  "on_fail": -1},
     {"type": "click", "target": "Picture7.png", "timeout": 30,  "on_fail": -1},
-    {"type": "click", "target": "Picture7.png", "timeout": 30,  "on_fail": -1},
-    {"type": "click", "target": "Picture8.png", "timeout": 10,  "on_fail": -1},
+    {"type": "click", "target": "Picture8.png", "timeout": 30,  "on_fail": -1},
+    {"type": "click", "target": "Picture9.png", "timeout": 10,  "on_fail": -1},
     {"type": "key",   "target": "u",          "timeout": 30,  "on_fail": -1},
     {"type": "click", "target": "Picture6.png", "timeout": 300, "on_fail": 8},
     {"type": "click", "target": "Picture7.png", "timeout": 300, "on_fail": -1, "wait_after_move": 3},
-    {"type": "click", "target": "Picture7.png", "timeout": 30, "on_fail": -1, "wait_after_move": 3} 
+    {"type": "click", "target": "Picture8.png", "timeout": 30, "on_fail": -1, "wait_after_move": 3} 
 ]
 
 # -----------------------------
@@ -63,7 +63,7 @@ while True:
         try:
             if action_type == "click":
                 img_path = os.path.join(folder, target)
-                location = pyautogui.locateOnScreen(img_path, confidence=0.85)
+                location = pyautogui.locateOnScreen(img_path, confidence=0.75)
 
                 if location:
                     center_x, center_y = pyautogui.center(location)
